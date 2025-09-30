@@ -9,7 +9,7 @@
   <!-- css link -->
   <link rel="stylesheet" href="./css/style.css">
   <!-- favicon -->
-  <link rel="icon" type="image/x-icon" href="../assests/herosection-image.jpg">
+  <link rel="icon" type="image/x-icon" href="./assests/herosection-image.jpg">
   <!-- font family cdn -->
   <link href="https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-55?styles=17471,17492" rel="stylesheet">
   <!--media query linnk  -->
@@ -238,7 +238,7 @@
 
     <!-- section fourth -->
     <section id="sectionFourth">
-      <div id="cartSection pageWidth">
+      <div id="cartSection" class="pageWidth">
         <div class="cartContent">
           <h4>Hot This Week</h4>
           <div class="cartProductDisplay">
@@ -383,15 +383,15 @@
               <label>Gender*</label>
               <div class="genderInnerDiv">
                 <div class="gender">
-                  <input type="radio" id="male" name="gender">
+                  <input type="radio" id="male" name="gender" value="Male">
                   <label for="male">Male</label>
                 </div>
                 <div class="gender">
-                  <input type="radio" id="female" name="gender">
+                  <input type="radio" id="female" name="gender" value="Female">
                   <label for="female">Female</label>
                 </div>
                 <div class="gender">
-                  <input type="radio" id="other" name="gender">
+                  <input type="radio" id="other" name="gender" value="Other">
                   <label for="other">Other</label>
                 </div>
               </div>
@@ -403,27 +403,27 @@
               <div id="hobbiesInner">
                 <!-- cricket -->
                 <div class="hobbiesDiv">
-                  <input type="checkbox" id="cricket" name="hobbies">
+                  <input type="checkbox" id="cricket" name="hobbies" value="Playing Cricket"> 
                   <label for="cricket">Playing Cricket</label>
                 </div>
                 <!-- tv -->
                 <div class="hobbiesDiv">
-                  <input type="checkbox" id="watching" name="hobbies">
+                  <input type="checkbox" id="watching" name="hobbies" value="Watching TV">
                   <label for="watching">Watching TV</label>
                 </div>
                 <!-- books -->
                 <div class="hobbiesDiv">
-                  <input type="checkbox" id="books" name="hobbies">
+                  <input type="checkbox" id="books" name="hobbies" value="Reading Books">
                   <label for="books">Reading Books</label>
                 </div>
                 <!-- bike -->
                 <div class="hobbiesDiv">
-                  <input type="checkbox" id="bike" name="hobbies">
+                  <input type="checkbox" id="bike" name="hobbies" value="Riding Bike">
                   <label for="bike">Riding Bike</label>
                 </div>
                 <!-- other -->
                 <div class="hobbiesDiv">
-                  <input type="checkbox" id="otherHobby" name="hobbies">
+                  <input type="checkbox" id="otherHobby" name="hobbies" value="other">
                   <label for="otherHobby">other</label>
                 </div>
               </div>
@@ -431,23 +431,23 @@
             </div>
             <div class="message">
               <label for="msg">Message*</label><br>
-              <textarea id="msg" placeholder="enter your message here"></textarea>
+              <textarea id="msg" placeholder="Enter your message here...."></textarea>
               <p id="msgError"></p>
             </div>
             <div class="options">
               <!-- subscribe -->
               <div class="newsletter">
-                <input type="checkbox" name="checkbox" id="subscribe">
+                <input type="checkbox" name="checkbox" id="subscribe" value="Subscribe to Newsletter">
                 <label for="subscribe">Subscribe to Newsletter</label>
               </div>
               <!-- Conditions -->
               <div class="terms">
-                <input type="checkbox" name="checkbox" id="conditions">
+                <input type="checkbox" name="checkbox" id="conditions" value="Agree to Terms & Conditions">
                 <label for="conditions">Agree to Terms & Conditions</label>
               </div>
               <!-- Receive -->
               <div class="offers">
-                <input type="checkbox" name="checkbox" id="receive">
+                <input type="checkbox" name="checkbox" id="receive" value="Receive Promotional Offers">
                 <label for="receive">Receive Promotional Offers</label>
               </div>
               <p id="optionsErorr"></p>
@@ -503,7 +503,7 @@
                 next order or get free x amount of points on you loyalty card.</p>
             </li>
             <li class="sending">
-              <input type="email" placeholder="your email">
+              <input type="email" placeholder="Your Email">
               <a href="#" style="color:black;" class="buttonGRab">Grab your offers now!</a>
             </li>
             <li id="logo">
@@ -517,8 +517,8 @@
       </div>
     </div>
     <div class="lastFooter ">
-      <div id="bottomBar">
-        <div class="lastSection pageWidth">
+      <div id="bottomBar" class="pageWidth">
+        <div class="lastSection">
           <p>Copyright © 2023 Kirk Galea. All Rights Reserved</p>
           <div>
             <a href="#"><img src="./assests/Payment .png" alt="payment"></a>
